@@ -5,7 +5,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import Routes from 'routes';
 import { Topbar, CurrentUserChecker } from 'components';
 
-import { CurrentUserProvider } from 'context/currentUser';
+import { CurrentUserProvider } from 'context';
 
 const App = () => {
   return (
